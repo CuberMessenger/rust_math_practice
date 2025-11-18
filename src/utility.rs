@@ -15,7 +15,7 @@ pub fn is_prime(num: i64) -> bool {
     let mut factor: i64 = 3;
     let square_root: i64 = (num as f64).sqrt().ceil() as i64;
 
-    while factor < square_root {
+    while factor <= square_root {
         if num % factor == 0 {
             return false;
         }

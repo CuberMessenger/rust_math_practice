@@ -10,7 +10,10 @@ fn main() {
         solvers::p2();
         solvers::p3();
         solvers::p4();
+        solvers::p5();
+        solvers::p6();
+        solvers::p7();
     }
 
-    solvers::p5();
+    solvers::p8();
 }
