@@ -13,7 +13,8 @@ fn main() {
         solvers::p5();
         solvers::p6();
         solvers::p7();
+        solvers::p8();
     }
 
-    solvers::p8();
+    solvers::p9();
 }
