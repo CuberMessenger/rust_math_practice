@@ -17,7 +17,8 @@ fn main() {
         solvers::p9();
         solvers::p10();
         solvers::p11();
+        solvers::p12();
     }
 
-    solvers::p12();
+    solvers::p13();
 }
