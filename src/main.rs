@@ -23,7 +23,10 @@ fn main() {
         solvers::p15();
         solvers::p16();
         solvers::p17();
+        solvers::p18();
+        solvers::p19();
+        solvers::p20();
     }
 
-    solvers::p18();
+    solvers::p21();
 }
