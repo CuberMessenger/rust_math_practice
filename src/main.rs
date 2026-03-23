@@ -1,3 +1,4 @@
+use std::time::Instant;
 
 mod utility;
 mod solvers;
@@ -29,5 +30,9 @@ fn main() {
         solvers::p21();
     }
 
+    let start = Instant::now();
     solvers::p22();
+    let duration = start.elapsed();
+
+    println!("ms: {:?}, ns: {}", duration, duration.as_nanos());
 }

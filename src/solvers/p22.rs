@@ -24,7 +24,7 @@ pub fn p22() {
         let name_score: u32 = name_worth * i;
         total_score += name_score;
 
-        println!("name {} is worthing {} scores!", name_string, name_score);
+        // println!("name {} is worthing {} scores!", name_string, name_score);
 
         i += 1;
     }
