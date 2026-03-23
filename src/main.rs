@@ -28,10 +28,11 @@ fn main() {
         solvers::p19();
         solvers::p20();
         solvers::p21();
+        solvers::p22();
     }
 
     let start = Instant::now();
-    solvers::p22();
+    solvers::p23();
     let duration = start.elapsed();
 
     println!("ms: {:?}, ns: {}", duration, duration.as_nanos());
