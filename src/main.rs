@@ -32,10 +32,11 @@ fn main() {
         solvers::p23();
         solvers::p24();
         solvers::p25();
+        solvers::p26();
     }
 
     let start = Instant::now();
-    solvers::p26();
+    solvers::p27();
     let duration = start.elapsed();
 
     println!("time: {:?}", duration);

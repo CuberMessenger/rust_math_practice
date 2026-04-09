@@ -1,7 +1,7 @@
 
 // O(sqrt(n)) is prime
 pub fn is_prime(num: i64) -> bool {
-    if num == 1 {
+    if num <= 1 {
         return false;
     }
 
