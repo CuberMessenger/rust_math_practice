@@ -34,10 +34,12 @@ fn main() {
         solvers::p25();
         solvers::p26();
         solvers::p27();
+        solvers::p28();
+        solvers::p29();
     }
 
     let start = Instant::now();
-    solvers::p28();
+    solvers::p30();
     let duration = start.elapsed();
 
     println!("time: {:?}", duration);

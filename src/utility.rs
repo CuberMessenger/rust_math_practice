@@ -117,3 +117,13 @@ pub fn large_integer_multiply(a: &Vec<u8>, b: &Vec<u8>) -> Vec<u8> {
 
     return digits;
 }
+
+pub fn large_integer_power(a: &Vec<u8>, b: u64) -> Vec<u8> {
+    let mut digits: Vec<u8> = from_integer(1);
+
+    for _ in 0..b {
+        digits = large_integer_multiply(&digits, a);
+    }
+
+    return digits;
+}
